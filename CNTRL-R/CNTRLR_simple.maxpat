@@ -1057,6 +1057,187 @@
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 44,
+						"data" : [ 							{
+								"key" : 1,
+								"value" : [ "potL/1" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "potL/2" ]
+							}
+, 							{
+								"key" : 9,
+								"value" : [ "potL/3" ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ "potL/4" ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "potL/5" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "potL/6" ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "potL/7" ]
+							}
+, 							{
+								"key" : 14,
+								"value" : [ "potL/8" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "potL/9" ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "potL/10" ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "potL/11" ]
+							}
+, 							{
+								"key" : 15,
+								"value" : [ "potL/12" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "slideL/1" ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "slideL/2" ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ "slideL/3" ]
+							}
+, 							{
+								"key" : 16,
+								"value" : [ "slideL/4" ]
+							}
+, 							{
+								"key" : 20,
+								"value" : [ "slideR/1" ]
+							}
+, 							{
+								"key" : 24,
+								"value" : [ "slideR/2" ]
+							}
+, 							{
+								"key" : 28,
+								"value" : [ "slideR/3" ]
+							}
+, 							{
+								"key" : 32,
+								"value" : [ "slideR/4" ]
+							}
+, 							{
+								"key" : 48,
+								"value" : [ "enc/1" ]
+							}
+, 							{
+								"key" : 51,
+								"value" : [ "enc/2" ]
+							}
+, 							{
+								"key" : 54,
+								"value" : [ "enc/3" ]
+							}
+, 							{
+								"key" : 57,
+								"value" : [ "enc/4" ]
+							}
+, 							{
+								"key" : 49,
+								"value" : [ "enc/5" ]
+							}
+, 							{
+								"key" : 52,
+								"value" : [ "enc/6" ]
+							}
+, 							{
+								"key" : 55,
+								"value" : [ "enc/7" ]
+							}
+, 							{
+								"key" : 58,
+								"value" : [ "enc/8" ]
+							}
+, 							{
+								"key" : 50,
+								"value" : [ "enc/9" ]
+							}
+, 							{
+								"key" : 53,
+								"value" : [ "enc/10" ]
+							}
+, 							{
+								"key" : 56,
+								"value" : [ "enc/11" ]
+							}
+, 							{
+								"key" : 59,
+								"value" : [ "enc/12" ]
+							}
+, 							{
+								"key" : 17,
+								"value" : [ "potR/1" ]
+							}
+, 							{
+								"key" : 21,
+								"value" : [ "potR/2" ]
+							}
+, 							{
+								"key" : 25,
+								"value" : [ "potR/3" ]
+							}
+, 							{
+								"key" : 29,
+								"value" : [ "potR/4" ]
+							}
+, 							{
+								"key" : 18,
+								"value" : [ "potR/5" ]
+							}
+, 							{
+								"key" : 22,
+								"value" : [ "potR/6" ]
+							}
+, 							{
+								"key" : 26,
+								"value" : [ "potR/7" ]
+							}
+, 							{
+								"key" : 30,
+								"value" : [ "potR/8" ]
+							}
+, 							{
+								"key" : 19,
+								"value" : [ "potR/9" ]
+							}
+, 							{
+								"key" : 23,
+								"value" : [ "potR/10" ]
+							}
+, 							{
+								"key" : 27,
+								"value" : [ "potR/11" ]
+							}
+, 							{
+								"key" : 31,
+								"value" : [ "potR/12" ]
+							}
+ ]
+					}
+,
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 20.0,
 					"id" : "obj-181",
@@ -1066,7 +1247,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 742.5, 270.0, 75.0, 30.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 1
 					}
 ,
 					"text" : "coll ccs"
@@ -1415,7 +1596,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.5, 617.0, 113.0, 28.0 ]
+					"patching_rect" : [ 119.5, 617.0, 113.0, 28.0 ],
+					"text" : "59 enc/12"
 				}
 
 			}
@@ -1435,6 +1617,187 @@
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 44,
+						"data" : [ 							{
+								"key" : 1,
+								"value" : [ "potL/1" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "potL/2" ]
+							}
+, 							{
+								"key" : 9,
+								"value" : [ "potL/3" ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ "potL/4" ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "potL/5" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "potL/6" ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "potL/7" ]
+							}
+, 							{
+								"key" : 14,
+								"value" : [ "potL/8" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "potL/9" ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "potL/10" ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "potL/11" ]
+							}
+, 							{
+								"key" : 15,
+								"value" : [ "potL/12" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "slideL/1" ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "slideL/2" ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ "slideL/3" ]
+							}
+, 							{
+								"key" : 16,
+								"value" : [ "slideL/4" ]
+							}
+, 							{
+								"key" : 20,
+								"value" : [ "slideR/1" ]
+							}
+, 							{
+								"key" : 24,
+								"value" : [ "slideR/2" ]
+							}
+, 							{
+								"key" : 28,
+								"value" : [ "slideR/3" ]
+							}
+, 							{
+								"key" : 32,
+								"value" : [ "slideR/4" ]
+							}
+, 							{
+								"key" : 48,
+								"value" : [ "enc/1" ]
+							}
+, 							{
+								"key" : 51,
+								"value" : [ "enc/2" ]
+							}
+, 							{
+								"key" : 54,
+								"value" : [ "enc/3" ]
+							}
+, 							{
+								"key" : 57,
+								"value" : [ "enc/4" ]
+							}
+, 							{
+								"key" : 49,
+								"value" : [ "enc/5" ]
+							}
+, 							{
+								"key" : 52,
+								"value" : [ "enc/6" ]
+							}
+, 							{
+								"key" : 55,
+								"value" : [ "enc/7" ]
+							}
+, 							{
+								"key" : 58,
+								"value" : [ "enc/8" ]
+							}
+, 							{
+								"key" : 50,
+								"value" : [ "enc/9" ]
+							}
+, 							{
+								"key" : 53,
+								"value" : [ "enc/10" ]
+							}
+, 							{
+								"key" : 56,
+								"value" : [ "enc/11" ]
+							}
+, 							{
+								"key" : 59,
+								"value" : [ "enc/12" ]
+							}
+, 							{
+								"key" : 17,
+								"value" : [ "potR/1" ]
+							}
+, 							{
+								"key" : 21,
+								"value" : [ "potR/2" ]
+							}
+, 							{
+								"key" : 25,
+								"value" : [ "potR/3" ]
+							}
+, 							{
+								"key" : 29,
+								"value" : [ "potR/4" ]
+							}
+, 							{
+								"key" : 18,
+								"value" : [ "potR/5" ]
+							}
+, 							{
+								"key" : 22,
+								"value" : [ "potR/6" ]
+							}
+, 							{
+								"key" : 26,
+								"value" : [ "potR/7" ]
+							}
+, 							{
+								"key" : 30,
+								"value" : [ "potR/8" ]
+							}
+, 							{
+								"key" : 19,
+								"value" : [ "potR/9" ]
+							}
+, 							{
+								"key" : 23,
+								"value" : [ "potR/10" ]
+							}
+, 							{
+								"key" : 27,
+								"value" : [ "potR/11" ]
+							}
+, 							{
+								"key" : 31,
+								"value" : [ "potR/12" ]
+							}
+ ]
+					}
+,
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 20.0,
 					"id" : "obj-156",
@@ -1444,7 +1807,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 94.5, 655.0, 75.0, 30.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 1
 					}
 ,
 					"text" : "coll ccs"
@@ -2174,27 +2537,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-229" : [ "Encoder 4", "enc4", 0 ],
-			"obj-233" : [ "Encoder Button 4", "encBtn4", 0 ],
-			"obj-227" : [ "Encoder 2", "enc2", 0 ],
-			"obj-228" : [ "Encoder 3", "enc3", 0 ],
-			"obj-232" : [ "Encoder Button 3", "encBtn3", 0 ],
 			"obj-231" : [ "Encoder Button 2", "encBtn2", 0 ],
+			"obj-233" : [ "Encoder Button 4", "encBtn4", 0 ],
+			"obj-229" : [ "Encoder 4", "enc4", 0 ],
 			"obj-230" : [ "Encoder Button 1", "encBtn1", 0 ],
-			"obj-222" : [ "Encoder 1", "enc1", 0 ]
+			"obj-222" : [ "Encoder 1", "enc1", 0 ],
+			"obj-228" : [ "Encoder 3", "enc3", 0 ],
+			"obj-227" : [ "Encoder 2", "enc2", 0 ],
+			"obj-232" : [ "Encoder Button 3", "encBtn3", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "faceplate_8.gif",
-				"bootpath" : "/Volumes/Satellite/Livid Max/Livid Editor/webroot",
-				"patcherrelativepath" : "../Livid Editor/webroot",
+				"bootpath" : "/Volumes/Satellite/Livid Max/Livid Editor/csswork/3-19-2013spoof",
+				"patcherrelativepath" : "../../../Livid Max/Livid Editor/csswork/3-19-2013spoof",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2coll",
 				"bootpath" : "/Volumes/Satellite/Livid Max/Keys_sns/3rdparty externals",
-				"patcherrelativepath" : "../Keys_sns/3rdparty externals",
+				"patcherrelativepath" : "../../../Livid Max/Keys_sns/3rdparty externals",
 				"type" : "maxb",
 				"implicit" : 1
 			}
