@@ -38,8 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.0, 135.0, 331.0, 63.0 ],
-					"presentation_rect" : [ 63.0, 133.0, 0.0, 0.0 ],
-					"text" : "\"coll buttons_now\" just stores everything in autopattr. Could be done with a switch I suppose."
+					"text" : "\"coll buttons_now\" just stores everything in autopattr. Could be done with a switch I suppose, but this seemed easier."
 				}
 
 			}
@@ -324,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 951.0, 202.5, 176.0, 48.0 ],
+					"patching_rect" : [ 951.0, 202.5, 181.0, 48.0 ],
 					"text" : "get the values of all UI items with names"
 				}
 
@@ -340,9 +339,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1237.0, 410.5, 141.0, 67.0 ],
-					"presentation_rect" : [ 1232.5, 399.5, 0.0, 0.0 ],
-					"text" : "selects the right member of the on/off list"
+					"patching_rect" : [ 1237.0, 410.5, 147.0, 67.0 ],
+					"text" : "selects the correct member of the on/off list"
 				}
 
 			}
@@ -398,8 +396,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 55.5, 125.0, 29.0 ],
-					"text" : "start the clock"
+					"patching_rect" : [ 641.0, 34.5, 414.0, 29.0 ],
+					"text" : "start the clock (that would obsensibly drive a sequencer)"
 				}
 
 			}
@@ -414,7 +412,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.0, 65.0, 331.0, 63.0 ],
-					"presentation_rect" : [ 1034.0, 197.0, 0.0, 0.0 ],
 					"text" : "\"coll buttons_color\" converts object name to velocity. Each name has an on/off pair that associates on/off with 2 colors. "
 				}
 
@@ -430,7 +427,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.0, 11.5, 344.0, 44.0 ],
-					"presentation_rect" : [ 1035.0, 142.0, 0.0, 0.0 ],
 					"text" : "\"coll buttons_out\" converts object name to note number to control the LED"
 				}
 
@@ -479,8 +475,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 75.5, 175.5, 20.0, 20.0 ],
-									"presentation_rect" : [ 497.599976, 179.0, 0.0, 0.0 ]
+									"patching_rect" : [ 75.5, 175.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -494,7 +489,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
 									"patching_rect" : [ 68.5, 202.5, 54.0, 21.0 ],
-									"presentation_rect" : [ 490.599976, 206.0, 0.0, 0.0 ],
 									"text" : "uzi 16"
 								}
 
@@ -1572,7 +1566,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -2626,8 +2619,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.0, 693.5, 139.5, 48.0 ],
-					"presentation_rect" : [ 741.0, 673.0, 0.0, 0.0 ],
+					"patching_rect" : [ 750.0, 693.5, 144.0, 48.0 ],
 					"text" : "revert top row to previous color"
 				}
 
@@ -2643,7 +2635,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 921.5, 448.5, 123.0, 48.0 ],
+					"patching_rect" : [ 921.5, 448.5, 126.0, 48.0 ],
 					"text" : "red runner led on top row"
 				}
 
@@ -2699,7 +2691,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 730.0, 630.0, 108.0, 25.0 ],
-					"presentation_rect" : [ 712.0, 726.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -2977,7 +2968,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 730.0, 570.0, 133.0, 25.0 ],
-					"presentation_rect" : [ 712.0, 666.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -3360,7 +3350,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 675.666687, 705.0, 63.0, 25.0 ],
-					"presentation_rect" : [ 732.0, 560.0, 0.0, 0.0 ],
 					"text" : "pak 0 0"
 				}
 
@@ -3676,7 +3665,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 825.0, 420.0, 121.0, 25.0 ],
-					"presentation_rect" : [ 805.0, 414.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -3753,7 +3741,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 621.0, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 621.0, 39.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -3917,7 +3905,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u203002001"
+					"varname" : "u527004450"
 				}
 
 			}
@@ -5873,8 +5861,8 @@
  ],
 		"parameters" : 		{
 			"obj-144" : [ "runner/14", "runner/14", 0 ],
-			"obj-222" : [ "rowTop/12", "rowTop/12", 0 ],
 			"obj-122" : [ "runner/3", "runner/3", 0 ],
+			"obj-222" : [ "rowTop/12", "rowTop/12", 0 ],
 			"obj-158" : [ "rowBot/2", "rowBot/2", 0 ],
 			"obj-168" : [ "rowBot/7", "rowBot/7", 0 ],
 			"obj-179" : [ "rowBot/12", "rowBot/12", 0 ],
@@ -5882,8 +5870,8 @@
 			"obj-211" : [ "rowTop/8", "rowTop/8", 0 ],
 			"obj-136" : [ "runner/10", "runner/10", 0 ],
 			"obj-146" : [ "runner/15", "runner/15", 0 ],
-			"obj-227" : [ "rowTop/13", "rowTop/13", 0 ],
 			"obj-124" : [ "runner/4", "runner/4", 0 ],
+			"obj-227" : [ "rowTop/13", "rowTop/13", 0 ],
 			"obj-160" : [ "rowBot/3", "rowBot/3", 0 ],
 			"obj-170" : [ "rowBot/8", "rowBot/8", 0 ],
 			"obj-189" : [ "rowBot/13", "rowBot/13", 0 ],
@@ -5892,8 +5880,8 @@
 			"obj-128" : [ "runner/6", "runner/6", 0 ],
 			"obj-138" : [ "runner/11", "runner/11", 0 ],
 			"obj-148" : [ "runner/16", "runner/16", 0 ],
-			"obj-229" : [ "rowTop/14", "rowTop/14", 0 ],
 			"obj-126" : [ "runner/5", "runner/5", 0 ],
+			"obj-229" : [ "rowTop/14", "rowTop/14", 0 ],
 			"obj-162" : [ "rowBot/4", "rowBot/4", 0 ],
 			"obj-172" : [ "rowBot/9", "rowBot/9", 0 ],
 			"obj-191" : [ "rowBot/14", "rowBot/14", 0 ],
@@ -5911,8 +5899,8 @@
 			"obj-207" : [ "rowTop/6", "rowTop/6", 0 ],
 			"obj-132" : [ "runner/8", "runner/8", 0 ],
 			"obj-142" : [ "runner/13", "runner/13", 0 ],
-			"obj-220" : [ "rowTop/11", "rowTop/11", 0 ],
 			"obj-120" : [ "runner/2", "runner/2", 0 ],
+			"obj-220" : [ "rowTop/11", "rowTop/11", 0 ],
 			"obj-233" : [ "rowTop/16", "rowTop/16", 0 ],
 			"obj-166" : [ "rowBot/6", "rowBot/6", 0 ],
 			"obj-176" : [ "rowBot/11", "rowBot/11", 0 ],
