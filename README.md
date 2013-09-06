@@ -18,4 +18,5 @@ Abstractions folder
 2coll - takes a stream of data and prepares it to store into a coll object, it in order received.
 
 examples folder
+
 scriptingName_example.maxpat - a simple example of how to use thispatcher and an objects "Scripting Name" to control and object. The patches in this collection make heavy use of this practice, so a simple example seemed worthwhile for those unfamiliar with this feature in Max.
