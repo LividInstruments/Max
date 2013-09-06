@@ -31,6 +31,23 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.145596, 0.316752, 0.848909, 0.26 ],
+					"fontface" : 3,
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 16.0,
+					"frgb" : 0.0,
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 703.5, 25.0, 539.0, 45.0 ],
+					"text" : "Here we use the names we generated in \"CNTRLR_simple\" to create a UI and control the UI with MIDI."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
@@ -128,8 +145,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1040.945801, 483.889526, 39.0, 18.0 ],
-					"presentation_rect" : [ 1040.945801, 478.889526, 0.0, 0.0 ],
+					"patching_rect" : [ 1039.945801, 568.809082, 39.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -158,8 +174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 997.945801, 464.0, 112.0, 18.0 ],
-					"presentation_rect" : [ 997.945801, 459.0, 0.0, 0.0 ],
+					"patching_rect" : [ 996.945801, 548.919556, 112.0, 18.0 ],
 					"text" : "video explanation",
 					"textcolor" : [ 0.999899, 1.0, 0.999842, 1.0 ]
 				}
@@ -3908,7 +3923,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 841.0, 449.5, 81.0, 25.0 ],
+					"patching_rect" : [ 840.0, 534.419556, 81.0, 25.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue Light",
@@ -4537,7 +4552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.5, 365.5, 174.0, 25.0 ],
+					"patching_rect" : [ 794.5, 450.419525, 174.0, 25.0 ],
 					"text" : "Wire-free programming!"
 				}
 
@@ -4551,7 +4566,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1078.5, 393.0, 26.0, 30.0 ],
+					"patching_rect" : [ 1077.5, 477.919525, 26.0, 30.0 ],
 					"text" : "t l"
 				}
 
@@ -4565,7 +4580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 718.5, 477.5, 68.0, 21.0 ],
+					"patching_rect" : [ 717.5, 562.419556, 68.0, 21.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -4580,7 +4595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 718.5, 449.5, 114.0, 21.0 ],
+					"patching_rect" : [ 717.5, 534.419556, 114.0, 21.0 ],
 					"text" : "prepend script send"
 				}
 
@@ -4595,7 +4610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.5, 363.0, 358.0, 54.0 ],
+					"patching_rect" : [ 707.5, 447.919525, 358.0, 54.0 ],
 					"text" : "Example.\nUse names to send to named UI objects"
 				}
 
@@ -4625,7 +4640,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 704.5, 14.080475, 294.0, 30.0 ],
+					"patching_rect" : [ 703.5, 99.0, 294.0, 30.0 ],
 					"text" : "MIDI input is converted to names"
 				}
 
@@ -4639,7 +4654,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 928.5, 134.0, 108.0, 30.0 ],
+					"patching_rect" : [ 927.5, 218.919525, 108.0, 30.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -4653,7 +4668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 927.0, 255.0, 85.0, 30.0 ],
+					"patching_rect" : [ 926.0, 339.919525, 85.0, 30.0 ],
 					"text" : "pack s 0"
 				}
 
@@ -4667,7 +4682,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 927.0, 216.0, 122.0, 30.0 ],
+					"patching_rect" : [ 926.0, 300.919525, 122.0, 30.0 ],
 					"text" : "route symbol"
 				}
 
@@ -4681,7 +4696,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 760.5, 255.0, 85.0, 30.0 ],
+					"patching_rect" : [ 759.5, 339.919525, 85.0, 30.0 ],
 					"text" : "pack s 0"
 				}
 
@@ -4695,7 +4710,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 760.5, 216.0, 122.0, 30.0 ],
+					"patching_rect" : [ 759.5, 300.919525, 122.0, 30.0 ],
 					"text" : "route symbol"
 				}
 
@@ -4709,7 +4724,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 703.5, 301.5, 117.0, 28.0 ],
+					"patching_rect" : [ 702.5, 386.419525, 117.0, 28.0 ],
 					"text" : "slideL/4 87"
 				}
 
@@ -4904,7 +4919,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 760.5, 176.0, 75.0, 30.0 ],
+					"patching_rect" : [ 759.5, 260.919525, 75.0, 30.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -4922,7 +4937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 882.5, 301.5, 106.0, 28.0 ],
+					"patching_rect" : [ 881.5, 386.419525, 106.0, 28.0 ],
 					"text" : "rowBot/1 0"
 				}
 
@@ -5181,7 +5196,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 927.0, 176.0, 111.0, 30.0 ],
+					"patching_rect" : [ 926.0, 260.919525, 111.0, 30.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -5199,7 +5214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 760.5, 122.0, 108.0, 30.0 ],
+					"patching_rect" : [ 759.5, 206.919525, 108.0, 30.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -5213,7 +5228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-					"patching_rect" : [ 760.5, 79.0, 100.0, 30.0 ],
+					"patching_rect" : [ 759.5, 163.919525, 100.0, 30.0 ],
 					"text" : "midiparse"
 				}
 
@@ -5227,7 +5242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 760.5, 43.0, 60.0, 30.0 ],
+					"patching_rect" : [ 759.5, 127.919525, 60.0, 30.0 ],
 					"text" : "midiin"
 				}
 
@@ -7505,7 +7520,7 @@
 					"destination" : [ "obj-187", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 770.0, 115.0, 938.0, 115.0 ],
+					"midpoints" : [ 769.0, 199.919556, 937.0, 199.919556 ],
 					"source" : [ "obj-139", 0 ]
 				}
 
@@ -7587,7 +7602,7 @@
 					"destination" : [ "obj-226", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 770.0, 294.5, 1088.0, 294.5 ],
+					"midpoints" : [ 769.0, 379.419556, 1087.0, 379.419556 ],
 					"source" : [ "obj-184", 0 ]
 				}
 
@@ -7606,7 +7621,7 @@
 					"destination" : [ "obj-226", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 936.5, 295.0, 1088.0, 295.0 ],
+					"midpoints" : [ 935.5, 379.919556, 1087.0, 379.919556 ],
 					"source" : [ "obj-185", 0 ]
 				}
 
@@ -7652,7 +7667,7 @@
 					"destination" : [ "obj-223", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1088.0, 438.5, 728.0, 438.5 ],
+					"midpoints" : [ 1087.0, 523.419556, 727.0, 523.419556 ],
 					"source" : [ "obj-226", 0 ]
 				}
 
@@ -7668,110 +7683,110 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "potL/3", "potL/3", 0 ],
-			"obj-5" : [ "potL/8", "potL/8", 0 ],
-			"obj-25" : [ "slideL/1", "slideL/1", 0 ],
-			"obj-189" : [ "rowBot/13", "rowBot/13", 0 ],
-			"obj-247" : [ "grid/5", "grid/5", 0 ],
-			"obj-324" : [ "slideR/2", "slideR/2", 0 ],
-			"obj-160" : [ "rowBot/3", "rowBot/3", 0 ],
-			"obj-310" : [ "enc/7", "enc/7", 0 ],
-			"obj-257" : [ "grid/10", "grid/10", 0 ],
-			"obj-320" : [ "enc/12", "enc/12", 0 ],
-			"obj-267" : [ "grid/15", "grid/15", 0 ],
-			"obj-170" : [ "rowBot/8", "rowBot/8", 0 ],
-			"obj-222" : [ "rowTop/12", "rowTop/12", 0 ],
-			"obj-279" : [ "potR/4", "potR/4", 0 ],
-			"obj-333" : [ "encBtn/4", "encBtn/4", 0 ],
-			"obj-343" : [ "encBtn/9", "encBtn/9", 0 ],
-			"obj-199" : [ "rowTop/2", "rowTop/2", 0 ],
-			"obj-289" : [ "potR/9", "potR/9", 0 ],
-			"obj-209" : [ "rowTop/7", "rowTop/7", 0 ],
-			"obj-4" : [ "potL/4", "potL/4", 0 ],
-			"obj-12" : [ "potL/9", "potL/9", 0 ],
-			"obj-156" : [ "rowBot/1", "rowBot/1", 0 ],
-			"obj-239" : [ "grid/1", "grid/1", 0 ],
-			"obj-26" : [ "slideL/2", "slideL/2", 0 ],
-			"obj-323" : [ "slideR/3", "slideR/3", 0 ],
-			"obj-191" : [ "rowBot/14", "rowBot/14", 0 ],
-			"obj-249" : [ "grid/6", "grid/6", 0 ],
-			"obj-259" : [ "grid/11", "grid/11", 0 ],
-			"obj-312" : [ "enc/8", "enc/8", 0 ],
-			"obj-162" : [ "rowBot/4", "rowBot/4", 0 ],
-			"obj-172" : [ "rowBot/9", "rowBot/9", 0 ],
-			"obj-269" : [ "grid/16", "grid/16", 0 ],
-			"obj-273" : [ "potR/1", "potR/1", 0 ],
-			"obj-227" : [ "rowTop/13", "rowTop/13", 0 ],
-			"obj-281" : [ "potR/5", "potR/5", 0 ],
-			"obj-335" : [ "encBtn/5", "encBtn/5", 0 ],
-			"obj-291" : [ "potR/10", "potR/10", 0 ],
-			"obj-201" : [ "rowTop/3", "rowTop/3", 0 ],
-			"obj-345" : [ "encBtn/10", "encBtn/10", 0 ],
-			"obj-211" : [ "rowTop/8", "rowTop/8", 0 ],
-			"obj-8" : [ "potL/5", "potL/5", 0 ],
-			"obj-11" : [ "potL/10", "potL/10", 0 ],
-			"obj-27" : [ "slideL/3", "slideL/3", 0 ],
-			"obj-174" : [ "rowBot/10", "rowBot/10", 0 ],
-			"obj-241" : [ "grid/2", "grid/2", 0 ],
-			"obj-193" : [ "rowBot/15", "rowBot/15", 0 ],
-			"obj-251" : [ "grid/7", "grid/7", 0 ],
-			"obj-322" : [ "slideR/4", "slideR/3", 0 ],
-			"obj-261" : [ "grid/12", "grid/12", 0 ],
-			"obj-164" : [ "rowBot/5", "rowBot/5", 0 ],
-			"obj-314" : [ "enc/9", "enc/9", 0 ],
-			"obj-197" : [ "rowTop/1", "rowTop/1", 0 ],
-			"obj-327" : [ "encBtn/1", "encBtn/1", 0 ],
-			"obj-283" : [ "potR/6", "potR/6", 0 ],
-			"obj-229" : [ "rowTop/14", "rowTop/14", 0 ],
-			"obj-337" : [ "encBtn/6", "encBtn/6", 0 ],
-			"obj-293" : [ "potR/11", "potR/11", 0 ],
-			"obj-347" : [ "encBtn/11", "encBtn/11", 0 ],
-			"obj-203" : [ "rowTop/4", "rowTop/4", 0 ],
-			"obj-213" : [ "rowTop/9", "rowTop/9", 0 ],
-			"obj-304" : [ "enc/4", "enc/4", 0 ],
-			"obj-1" : [ "potL/1", "potL/1", 0 ],
-			"obj-7" : [ "potL/6", "potL/6", 0 ],
 			"obj-302" : [ "enc/3", "enc/3", 0 ],
-			"obj-10" : [ "potL/11", "potL/11", 0 ],
-			"obj-300" : [ "enc/2", "enc/2", 0 ],
-			"obj-298" : [ "enc/1", "enc/1", 0 ],
-			"obj-28" : [ "slideL/4", "slideL/4", 0 ],
-			"obj-176" : [ "rowBot/11", "rowBot/11", 0 ],
-			"obj-243" : [ "grid/3", "grid/3", 0 ],
-			"obj-195" : [ "rowBot/16", "rowBot/16", 0 ],
-			"obj-306" : [ "enc/5", "enc/5", 0 ],
-			"obj-253" : [ "grid/8", "grid/8", 0 ],
-			"obj-316" : [ "enc/10", "enc/10", 0 ],
-			"obj-263" : [ "grid/13", "grid/13", 0 ],
-			"obj-166" : [ "rowBot/6", "rowBot/6", 0 ],
-			"obj-329" : [ "encBtn/2", "encBtn/2", 0 ],
-			"obj-275" : [ "potR/2", "potR/2", 0 ],
-			"obj-215" : [ "rowTop/10", "rowTop/10", 0 ],
-			"obj-285" : [ "potR/7", "potR/7", 0 ],
-			"obj-231" : [ "rowTop/15", "rowTop/15", 0 ],
-			"obj-339" : [ "encBtn/7", "encBtn/7", 0 ],
-			"obj-295" : [ "potR/12", "potR/12", 0 ],
-			"obj-205" : [ "rowTop/5", "rowTop/5", 0 ],
-			"obj-349" : [ "encBtn/12", "encBtn/12", 0 ],
-			"obj-2" : [ "potL/2", "potL/2", 0 ],
-			"obj-6" : [ "potL/7", "potL/7", 0 ],
-			"obj-9" : [ "potL/12", "potL/12", 0 ],
-			"obj-325" : [ "slideR/1", "slideR/1", 0 ],
-			"obj-179" : [ "rowBot/12", "rowBot/12", 0 ],
-			"obj-245" : [ "grid/4", "grid/4", 0 ],
-			"obj-255" : [ "grid/9", "grid/9", 0 ],
-			"obj-308" : [ "enc/6", "enc/6", 0 ],
-			"obj-158" : [ "rowBot/2", "rowBot/2", 0 ],
-			"obj-265" : [ "grid/14", "grid/14", 0 ],
-			"obj-168" : [ "rowBot/7", "rowBot/7", 0 ],
-			"obj-318" : [ "enc/11", "enc/11", 0 ],
-			"obj-220" : [ "rowTop/11", "rowTop/11", 0 ],
-			"obj-277" : [ "potR/3", "potR/3", 0 ],
-			"obj-331" : [ "encBtn/3", "encBtn/3", 0 ],
-			"obj-233" : [ "rowTop/16", "rowTop/16", 0 ],
+			"obj-4" : [ "potL/4", "potL/4", 0 ],
+			"obj-174" : [ "rowBot/10", "rowBot/10", 0 ],
+			"obj-12" : [ "potL/9", "potL/9", 0 ],
+			"obj-193" : [ "rowBot/15", "rowBot/15", 0 ],
 			"obj-341" : [ "encBtn/8", "encBtn/8", 0 ],
+			"obj-26" : [ "slideL/2", "slideL/2", 0 ],
+			"obj-243" : [ "grid/3", "grid/3", 0 ],
+			"obj-323" : [ "slideR/3", "slideR/3", 0 ],
+			"obj-298" : [ "enc/1", "enc/1", 0 ],
+			"obj-253" : [ "grid/8", "grid/8", 0 ],
+			"obj-263" : [ "grid/13", "grid/13", 0 ],
+			"obj-312" : [ "enc/8", "enc/8", 0 ],
+			"obj-273" : [ "potR/1", "potR/1", 0 ],
+			"obj-199" : [ "rowTop/2", "rowTop/2", 0 ],
+			"obj-283" : [ "potR/6", "potR/6", 0 ],
+			"obj-293" : [ "potR/11", "potR/11", 0 ],
+			"obj-209" : [ "rowTop/7", "rowTop/7", 0 ],
+			"obj-327" : [ "encBtn/1", "encBtn/1", 0 ],
+			"obj-222" : [ "rowTop/12", "rowTop/12", 0 ],
+			"obj-156" : [ "rowBot/1", "rowBot/1", 0 ],
+			"obj-166" : [ "rowBot/6", "rowBot/6", 0 ],
+			"obj-8" : [ "potL/5", "potL/5", 0 ],
+			"obj-176" : [ "rowBot/11", "rowBot/11", 0 ],
+			"obj-300" : [ "enc/2", "enc/2", 0 ],
+			"obj-11" : [ "potL/10", "potL/10", 0 ],
+			"obj-195" : [ "rowBot/16", "rowBot/16", 0 ],
+			"obj-343" : [ "encBtn/9", "encBtn/9", 0 ],
+			"obj-27" : [ "slideL/3", "slideL/3", 0 ],
+			"obj-245" : [ "grid/4", "grid/4", 0 ],
+			"obj-333" : [ "encBtn/4", "encBtn/4", 0 ],
+			"obj-322" : [ "slideR/4", "slideR/3", 0 ],
+			"obj-255" : [ "grid/9", "grid/9", 0 ],
+			"obj-314" : [ "enc/9", "enc/9", 0 ],
+			"obj-265" : [ "grid/14", "grid/14", 0 ],
+			"obj-275" : [ "potR/2", "potR/2", 0 ],
+			"obj-201" : [ "rowTop/3", "rowTop/3", 0 ],
+			"obj-285" : [ "potR/7", "potR/7", 0 ],
+			"obj-295" : [ "potR/12", "potR/12", 0 ],
+			"obj-211" : [ "rowTop/8", "rowTop/8", 0 ],
+			"obj-227" : [ "rowTop/13", "rowTop/13", 0 ],
+			"obj-158" : [ "rowBot/2", "rowBot/2", 0 ],
+			"obj-1" : [ "potL/1", "potL/1", 0 ],
+			"obj-168" : [ "rowBot/7", "rowBot/7", 0 ],
+			"obj-7" : [ "potL/6", "potL/6", 0 ],
+			"obj-179" : [ "rowBot/12", "rowBot/12", 0 ],
+			"obj-335" : [ "encBtn/5", "encBtn/5", 0 ],
+			"obj-10" : [ "potL/11", "potL/11", 0 ],
+			"obj-345" : [ "encBtn/10", "encBtn/10", 0 ],
+			"obj-28" : [ "slideL/4", "slideL/4", 0 ],
+			"obj-247" : [ "grid/5", "grid/5", 0 ],
+			"obj-306" : [ "enc/5", "enc/5", 0 ],
+			"obj-257" : [ "grid/10", "grid/10", 0 ],
+			"obj-316" : [ "enc/10", "enc/10", 0 ],
+			"obj-267" : [ "grid/15", "grid/15", 0 ],
+			"obj-277" : [ "potR/3", "potR/3", 0 ],
+			"obj-203" : [ "rowTop/4", "rowTop/4", 0 ],
 			"obj-287" : [ "potR/8", "potR/8", 0 ],
-			"obj-207" : [ "rowTop/6", "rowTop/6", 0 ]
+			"obj-213" : [ "rowTop/9", "rowTop/9", 0 ],
+			"obj-229" : [ "rowTop/14", "rowTop/14", 0 ],
+			"obj-160" : [ "rowBot/3", "rowBot/3", 0 ],
+			"obj-2" : [ "potL/2", "potL/2", 0 ],
+			"obj-170" : [ "rowBot/8", "rowBot/8", 0 ],
+			"obj-6" : [ "potL/7", "potL/7", 0 ],
+			"obj-189" : [ "rowBot/13", "rowBot/13", 0 ],
+			"obj-9" : [ "potL/12", "potL/12", 0 ],
+			"obj-337" : [ "encBtn/6", "encBtn/6", 0 ],
+			"obj-239" : [ "grid/1", "grid/1", 0 ],
+			"obj-325" : [ "slideR/1", "slideR/1", 0 ],
+			"obj-347" : [ "encBtn/11", "encBtn/11", 0 ],
+			"obj-249" : [ "grid/6", "grid/6", 0 ],
+			"obj-308" : [ "enc/6", "enc/6", 0 ],
+			"obj-259" : [ "grid/11", "grid/11", 0 ],
+			"obj-331" : [ "encBtn/3", "encBtn/3", 0 ],
+			"obj-269" : [ "grid/16", "grid/16", 0 ],
+			"obj-318" : [ "enc/11", "enc/11", 0 ],
+			"obj-279" : [ "potR/4", "potR/4", 0 ],
+			"obj-289" : [ "potR/9", "potR/9", 0 ],
+			"obj-205" : [ "rowTop/5", "rowTop/5", 0 ],
+			"obj-215" : [ "rowTop/10", "rowTop/10", 0 ],
+			"obj-231" : [ "rowTop/15", "rowTop/15", 0 ],
+			"obj-304" : [ "enc/4", "enc/4", 0 ],
+			"obj-162" : [ "rowBot/4", "rowBot/4", 0 ],
+			"obj-3" : [ "potL/3", "potL/3", 0 ],
+			"obj-172" : [ "rowBot/9", "rowBot/9", 0 ],
+			"obj-5" : [ "potL/8", "potL/8", 0 ],
+			"obj-191" : [ "rowBot/14", "rowBot/14", 0 ],
+			"obj-339" : [ "encBtn/7", "encBtn/7", 0 ],
+			"obj-25" : [ "slideL/1", "slideL/1", 0 ],
+			"obj-241" : [ "grid/2", "grid/2", 0 ],
+			"obj-349" : [ "encBtn/12", "encBtn/12", 0 ],
+			"obj-324" : [ "slideR/2", "slideR/2", 0 ],
+			"obj-251" : [ "grid/7", "grid/7", 0 ],
+			"obj-310" : [ "enc/7", "enc/7", 0 ],
+			"obj-261" : [ "grid/12", "grid/12", 0 ],
+			"obj-197" : [ "rowTop/1", "rowTop/1", 0 ],
+			"obj-320" : [ "enc/12", "enc/12", 0 ],
+			"obj-281" : [ "potR/5", "potR/5", 0 ],
+			"obj-329" : [ "encBtn/2", "encBtn/2", 0 ],
+			"obj-291" : [ "potR/10", "potR/10", 0 ],
+			"obj-207" : [ "rowTop/6", "rowTop/6", 0 ],
+			"obj-220" : [ "rowTop/11", "rowTop/11", 0 ],
+			"obj-233" : [ "rowTop/16", "rowTop/16", 0 ],
+			"obj-164" : [ "rowBot/5", "rowBot/5", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

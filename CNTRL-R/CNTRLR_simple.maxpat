@@ -30,6 +30,23 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.145596, 0.316752, 0.848909, 0.26 ],
+					"fontface" : 3,
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 16.0,
+					"frgb" : 0.0,
+					"id" : "obj-6",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1004.5, 6.0, 276.0, 216.0 ],
+					"text" : "This patch provides a system for generating names for groups of controls,  attaching MIDI notes and ccs to those names, and saving these name/value relationships to a 'coll' object. The result is MIDI input converted to symbols, which we can use to more intuitively control our patch. In a crude way, this is \"MIDI learn\" for Max."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
@@ -127,7 +144,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1154.945801, 603.698608, 39.0, 18.0 ],
+					"patching_rect" : [ 1047.5, 249.0, 39.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -156,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1111.945801, 583.809082, 112.0, 18.0 ],
+					"patching_rect" : [ 1004.5, 229.110474, 112.0, 18.0 ],
 					"text" : "video explanation",
 					"textcolor" : [ 0.999899, 1.0, 0.999842, 1.0 ]
 				}
@@ -1115,7 +1132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 910.5, 156.809052, 108.0, 30.0 ],
+					"patching_rect" : [ 852.0, 155.809052, 108.0, 30.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -1129,7 +1146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 909.0, 277.809052, 85.0, 30.0 ],
+					"patching_rect" : [ 850.5, 276.809052, 85.0, 30.0 ],
 					"text" : "pack s 0"
 				}
 
@@ -1143,7 +1160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 909.0, 238.809052, 122.0, 30.0 ],
+					"patching_rect" : [ 850.5, 237.809052, 122.0, 30.0 ],
 					"text" : "route symbol"
 				}
 
@@ -1157,7 +1174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.5, 277.809052, 85.0, 30.0 ],
+					"patching_rect" : [ 684.0, 276.809052, 85.0, 30.0 ],
 					"text" : "pack s 0"
 				}
 
@@ -1171,7 +1188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 742.5, 238.809052, 122.0, 30.0 ],
+					"patching_rect" : [ 684.0, 237.809052, 122.0, 30.0 ],
 					"text" : "route symbol"
 				}
 
@@ -1381,7 +1398,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 742.5, 198.809052, 75.0, 30.0 ],
+					"patching_rect" : [ 684.0, 197.809052, 75.0, 30.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -1659,7 +1676,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 909.0, 198.809052, 111.0, 30.0 ],
+					"patching_rect" : [ 850.5, 197.809052, 111.0, 30.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -2091,7 +2108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 742.5, 144.809052, 108.0, 30.0 ],
+					"patching_rect" : [ 684.0, 143.809052, 108.0, 30.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -2105,7 +2122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-					"patching_rect" : [ 742.5, 101.809052, 100.0, 30.0 ],
+					"patching_rect" : [ 684.0, 100.809052, 100.0, 30.0 ],
 					"text" : "midiparse"
 				}
 
@@ -2119,7 +2136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 742.5, 65.809052, 60.0, 30.0 ],
+					"patching_rect" : [ 684.0, 64.809052, 60.0, 30.0 ],
 					"text" : "midiin"
 				}
 
@@ -2176,7 +2193,7 @@
 					"destination" : [ "obj-187", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 752.0, 137.809082, 920.0, 137.809082 ],
+					"midpoints" : [ 693.5, 136.809082, 861.5, 136.809082 ],
 					"source" : [ "obj-139", 0 ]
 				}
 
@@ -2435,7 +2452,7 @@
 					"destination" : [ "obj-226", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 752.0, 317.309082, 1070.0, 317.309082 ],
+					"midpoints" : [ 693.5, 317.309082, 1070.0, 317.309082 ],
 					"source" : [ "obj-184", 0 ]
 				}
 
@@ -2454,7 +2471,7 @@
 					"destination" : [ "obj-226", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 918.5, 317.809082, 1070.0, 317.809082 ],
+					"midpoints" : [ 860.0, 317.809082, 1070.0, 317.809082 ],
 					"source" : [ "obj-185", 0 ]
 				}
 
@@ -2684,14 +2701,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-229" : [ "Encoder 4", "enc4", 0 ],
-			"obj-228" : [ "Encoder 3", "enc3", 0 ],
-			"obj-227" : [ "Encoder 2", "enc2", 0 ],
-			"obj-222" : [ "Encoder 1", "enc1", 0 ],
-			"obj-233" : [ "Encoder Button 4", "encBtn4", 0 ],
 			"obj-232" : [ "Encoder Button 3", "encBtn3", 0 ],
+			"obj-229" : [ "Encoder 4", "enc4", 0 ],
 			"obj-231" : [ "Encoder Button 2", "encBtn2", 0 ],
-			"obj-230" : [ "Encoder Button 1", "encBtn1", 0 ]
+			"obj-228" : [ "Encoder 3", "enc3", 0 ],
+			"obj-222" : [ "Encoder 1", "enc1", 0 ],
+			"obj-230" : [ "Encoder Button 1", "encBtn1", 0 ],
+			"obj-227" : [ "Encoder 2", "enc2", 0 ],
+			"obj-233" : [ "Encoder Button 4", "encBtn4", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
