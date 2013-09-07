@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1284.0, 723.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 720.0 ],
 		"openrect" : [ 0.0, 0.0, 1280.0, 720.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,13 +30,164 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-31",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1060.5, 173.0, 131.0, 48.0 ],
+					"presentation_rect" : [ 1060.5, 172.294922, 0.0, 0.0 ],
+					"text" : "scale the output from cc48 so it ranges from -2 to 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 25.0, 69.0, 251.0, 123.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 5.0, 5.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-61",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 15.0, 36.0, 22.0, 18.0 ],
+									"text" : "t b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-111",
+									"linecount" : 4,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 60.0, 230.0, 49.0 ],
+									"text" : ";\rmax launch_browser http://www.youtube.com/watch?v=XmCRUOUqag4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-63",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 5.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-111", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-61", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 46.5, 105.5, 39.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p URL"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.242671, 0.372801, 0.71825, 1.0 ],
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 46.5, 87.5, 112.0, 18.0 ],
+					"text" : "video explanation",
+					"textcolor" : [ 0.999899, 1.0, 0.999842, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-105",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1173.0, 652.0, 20.0, 20.0 ]
+					"patching_rect" : [ 1173.0, 247.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -86,7 +237,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 579.0, 453.5, 35.0, 18.0 ],
-									"presentation_rect" : [ 577.0, 454.5, 0.0, 0.0 ],
 									"text" : "r port",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 								}
@@ -130,7 +280,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 91.0, 224.5, 34.0, 20.0 ],
-									"presentation_rect" : [ 480.0, 267.0, 0.0, 0.0 ],
 									"text" : "+ 48"
 								}
 
@@ -872,7 +1021,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1173.0, 682.5, 76.0, 21.0 ],
+					"patching_rect" : [ 1173.0, 277.5, 76.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -900,7 +1049,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 965.0, 46.5, 35.0, 18.0 ],
-					"presentation_rect" : [ 968.0, 51.5, 0.0, 0.0 ],
 					"text" : "r port",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 				}
@@ -973,7 +1121,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 793.0, 11.0, 326.0, 26.0 ],
-					"presentation_rect" : [ 938.75, 20.5, 0.0, 0.0 ],
 					"text" : "example: using LED ring as loop indicator"
 				}
 
@@ -1295,7 +1442,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 864.0, 243.5, 35.0, 18.0 ],
-					"presentation_rect" : [ 1019.75, 196.5, 0.0, 0.0 ],
 					"text" : "r port",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 				}
@@ -1310,7 +1456,6 @@
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 864.0, 216.5, 59.0, 25.0 ],
-					"presentation_rect" : [ 1019.75, 171.5, 0.0, 0.0 ],
 					"text" : "ctlout"
 				}
 
@@ -1480,7 +1625,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1091.0, 673.889526, 39.0, 18.0 ],
+					"patching_rect" : [ 1091.0, 665.889526, 39.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1509,7 +1654,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.0, 673.889526, 82.0, 18.0 ],
+					"patching_rect" : [ 995.0, 665.889526, 82.0, 18.0 ],
 					"text" : "visit website",
 					"textcolor" : [ 0.999899, 1.0, 0.999842, 1.0 ]
 				}
@@ -1526,7 +1671,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 761.0, 613.889526, 345.0, 81.0 ],
+					"patching_rect" : [ 761.0, 605.889526, 345.0, 81.0 ],
 					"text" : "Patch designed with the Livid CNTRL:R in mind.\nby Peter Nyboer\npete@lividinstruments.com\nhttp://www.lividinstruments.com"
 				}
 
@@ -1540,7 +1685,7 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 761.0, 472.889526, 194.0, 141.589813 ],
+					"patching_rect" : [ 761.0, 464.889526, 194.0, 141.589813 ],
 					"pic" : "faceplate_8.gif"
 				}
 
@@ -1557,8 +1702,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.5, 7.5, 343.0, 64.0 ],
-					"presentation_rect" : [ 412.5, 7.5, 0.0, 0.0 ],
+					"patching_rect" : [ 7.75, 0.5, 343.0, 64.0 ],
 					"text" : "This patch describes how to control LEDs on the CNTRL:R, and how to configure some things with the 'settings channel'"
 				}
 
@@ -1569,7 +1713,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 305.0, 1270.0, 4.0 ]
+					"patching_rect" : [ 0.0, 305.0, 1260.0, 4.0 ]
 				}
 
 			}
@@ -1596,7 +1740,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.5, 68.0, 118.0, 21.0 ],
+					"patching_rect" : [ 460.5, 49.294922, 118.0, 21.0 ],
 					"text" : "select CNTRL:R port"
 				}
 
@@ -4516,7 +4660,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 501.0, 272.5, 103.0, 28.0 ],
+					"patching_rect" : [ 301.0, 267.5, 103.0, 28.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue Light",
@@ -4545,7 +4689,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.25, 70.5, 305.0, 20.0 ],
+					"patching_rect" : [ 46.5, 63.5, 305.0, 20.0 ],
 					"text" : "Examples are based on CNTRL:R's default MIDI settings."
 				}
 
@@ -4661,7 +4805,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.75, 90.5, 326.0, 26.0 ],
+					"patching_rect" : [ 425.75, 111.5, 326.0, 26.0 ],
 					"text" : "simple control of LED rings and encoders"
 				}
 
@@ -4677,7 +4821,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 671.0, 233.0, 44.0 ],
+					"patching_rect" : [ 10.5, 656.684448, 234.0, 44.0 ],
 					"text" : "encoder speed: rotation amount needed to advance the value."
 				}
 
@@ -4693,7 +4837,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.5, 582.0, 170.0, 62.0 ],
+					"patching_rect" : [ 233.5, 574.684448, 170.0, 62.0 ],
 					"text" : "LED rings can have differernt ways of displaying information."
 				}
 
@@ -4709,7 +4853,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 536.0, 492.0, 148.0, 118.0 ],
+					"patching_rect" : [ 527.0, 484.684448, 148.0, 118.0 ],
 					"text" : "if local control is on for a control and mode, then using a button or encoder will also change the LED."
 				}
 
@@ -4724,7 +4868,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 323.0, 595.0, 26.0 ],
+					"patching_rect" : [ 10.5, 315.684448, 595.0, 26.0 ],
 					"text" : "other properties can be changed with the Settings Channel (ch 16 by default)"
 				}
 
@@ -4738,7 +4882,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 92.75, 540.5, 43.0, 25.0 ],
+					"patching_rect" : [ 83.75, 526.184448, 43.0, 25.0 ],
 					"text" : "+ 48"
 				}
 
@@ -4754,7 +4898,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.75, 511.5, 100.0, 25.0 ]
+					"patching_rect" : [ 83.75, 497.184448, 100.0, 25.0 ]
 				}
 
 			}
@@ -4767,7 +4911,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 46.5, 592.0, 39.0, 25.0 ],
+					"patching_rect" : [ 37.5, 577.684448, 39.0, 25.0 ],
 					"text" : "48"
 				}
 
@@ -4781,7 +4925,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 312.5, 439.0, 52.0, 25.0 ],
+					"patching_rect" : [ 303.5, 431.684448, 52.0, 25.0 ],
 					"text" : "+ 100"
 				}
 
@@ -4797,7 +4941,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 312.5, 413.0, 100.0, 25.0 ]
+					"patching_rect" : [ 303.5, 405.684448, 100.0, 25.0 ]
 				}
 
 			}
@@ -4810,7 +4954,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 281.75, 510.0, 40.0, 25.0 ],
+					"patching_rect" : [ 272.75, 502.684448, 40.0, 25.0 ],
 					"text" : "100"
 				}
 
@@ -4824,7 +4968,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 242.5, 413.0, 43.0, 25.0 ],
+					"patching_rect" : [ 233.5, 405.684448, 43.0, 25.0 ],
 					"text" : "+ 64"
 				}
 
@@ -4840,7 +4984,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.5, 386.0, 100.0, 25.0 ]
+					"patching_rect" : [ 233.5, 378.684448, 100.0, 25.0 ]
 				}
 
 			}
@@ -5473,7 +5617,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 438.0, 461.5, 176.0, 25.0 ],
+					"patching_rect" : [ 429.0, 454.184448, 176.0, 25.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue Light",
@@ -5503,7 +5647,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 587.0, 424.389526, 120.0, 25.0 ],
+					"patching_rect" : [ 578.0, 417.073975, 120.0, 25.0 ],
 					"rounded" : 2.0,
 					"text" : "Enc-relative",
 					"texton" : "Enc-relative",
@@ -5523,7 +5667,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 424.389526, 120.0, 25.0 ],
+					"patching_rect" : [ 429.0, 417.073975, 120.0, 25.0 ],
 					"rounded" : 2.0,
 					"text" : "Enc-absolute",
 					"texton" : "Enc-absolute",
@@ -5543,7 +5687,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 587.0, 387.5, 120.0, 25.0 ],
+					"patching_rect" : [ 578.0, 380.184448, 120.0, 25.0 ],
 					"rounded" : 2.0,
 					"text" : "Button-toggle",
 					"texton" : "Button-toggle",
@@ -5563,7 +5707,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 387.5, 140.0, 25.0 ],
+					"patching_rect" : [ 429.0, 380.184448, 140.0, 25.0 ],
 					"rounded" : 2.0,
 					"text" : "Button-momentary",
 					"texton" : "Button-momentary",
@@ -5580,7 +5724,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.5, 574.0, 35.0, 18.0 ],
+					"patching_rect" : [ 429.5, 566.684448, 35.0, 18.0 ],
 					"text" : "r port",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 				}
@@ -5595,7 +5739,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 438.0, 518.0, 54.0, 25.0 ],
+					"patching_rect" : [ 429.0, 510.684448, 54.0, 25.0 ],
 					"text" : "t i 122"
 				}
 
@@ -5610,7 +5754,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 492.0, 57.0, 25.0 ]
+					"patching_rect" : [ 429.0, 484.684448, 57.0, 25.0 ]
 				}
 
 			}
@@ -5622,7 +5766,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.5, 549.0, 85.0, 25.0 ],
+					"patching_rect" : [ 429.5, 541.684448, 85.0, 25.0 ],
 					"text" : "ctlout 1 16"
 				}
 
@@ -5636,7 +5780,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.0, 356.5, 146.0, 25.0 ],
+					"patching_rect" : [ 429.0, 349.184448, 146.0, 25.0 ],
 					"text" : "Local control (cc22)"
 				}
 
@@ -5651,7 +5795,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 120.5, 240.0, 63.0 ],
+					"patching_rect" : [ 536.0, 141.5, 240.0, 63.0 ],
 					"text" : "ccs 48-59 control encoder value. LED ring will change, too, if local control is enabled (it is by default)"
 				}
 
@@ -5664,7 +5808,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.5, 93.5, 52.0, 25.0 ],
+					"patching_rect" : [ 360.5, 74.794922, 52.0, 25.0 ],
 					"text" : "s port"
 				}
 
@@ -5674,13 +5818,13 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 16.0,
 					"id" : "obj-65",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2", ",", "Cntrl_r Controls", ",", "Cntrl_r Port 2", ",", "Alias_8 A8_Controls", ",", "Alias_8 Port 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Cntrl_r Controls", ",", "Cntrl_r Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 68.0, 100.0, 25.0 ]
+					"patching_rect" : [ 360.5, 49.294922, 100.0, 25.0 ]
 				}
 
 			}
@@ -5693,7 +5837,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.5, 17.0, 76.0, 25.0 ],
+					"patching_rect" : [ 360.5, -1.705078, 76.0, 25.0 ],
 					"text" : "loadbang"
 				}
 
@@ -5707,7 +5851,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.5, 43.0, 65.0, 25.0 ],
+					"patching_rect" : [ 360.5, 24.294922, 65.0, 25.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -5811,7 +5955,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 965.0, 577.889526, 55.0, 25.0 ],
+					"patching_rect" : [ 965.0, 569.889526, 55.0, 25.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -5840,7 +5984,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.0, 549.0, 149.0, 24.0 ],
+					"patching_rect" : [ 965.0, 541.0, 149.0, 24.0 ],
 					"text" : "Web-based Editor",
 					"textcolor" : [ 0.999899, 1.0, 0.999842, 1.0 ]
 				}
@@ -5884,7 +6028,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.75, 188.5, 35.0, 18.0 ],
+					"patching_rect" : [ 425.75, 209.5, 35.0, 18.0 ],
 					"text" : "r port",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 				}
@@ -5901,7 +6045,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 74.0, 415.0, 104.0, 25.0 ]
+					"patching_rect" : [ 65.0, 407.684448, 104.0, 25.0 ]
 				}
 
 			}
@@ -5914,7 +6058,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 74.0, 448.5, 40.0, 25.0 ],
+					"patching_rect" : [ 65.0, 441.184448, 40.0, 25.0 ],
 					"text" : "* 16"
 				}
 
@@ -5929,7 +6073,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 19.5, 512.0, 57.0, 25.0 ]
+					"patching_rect" : [ 10.5, 497.684448, 57.0, 25.0 ]
 				}
 
 			}
@@ -5942,7 +6086,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 19.5, 476.5, 40.0, 25.0 ],
+					"patching_rect" : [ 10.5, 469.184448, 40.0, 25.0 ],
 					"text" : "+ 0"
 				}
 
@@ -5956,7 +6100,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 19.5, 448.5, 43.0, 25.0 ],
+					"patching_rect" : [ 10.5, 441.184448, 43.0, 25.0 ],
 					"text" : "+ 64"
 				}
 
@@ -5972,7 +6116,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 19.5, 388.0, 104.0, 25.0 ]
+					"patching_rect" : [ 10.5, 380.684448, 104.0, 25.0 ]
 				}
 
 			}
@@ -5985,7 +6129,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.5, 564.0, 35.0, 18.0 ],
+					"patching_rect" : [ 233.5, 556.684448, 35.0, 18.0 ],
 					"text" : "r port",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 				}
@@ -6000,7 +6144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 242.5, 471.0, 36.0, 25.0 ],
+					"patching_rect" : [ 233.5, 463.684448, 36.0, 25.0 ],
 					"text" : "t i b"
 				}
 
@@ -6015,7 +6159,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.5, 439.0, 57.0, 25.0 ]
+					"patching_rect" : [ 233.5, 431.684448, 57.0, 25.0 ]
 				}
 
 			}
@@ -6027,7 +6171,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.5, 539.0, 85.0, 25.0 ],
+					"patching_rect" : [ 233.5, 531.684448, 85.0, 25.0 ],
 					"text" : "ctlout 1 16"
 				}
 
@@ -6041,7 +6185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.5, 356.0, 132.0, 25.0 ],
+					"patching_rect" : [ 233.5, 348.684448, 132.0, 25.0 ],
 					"text" : "LED Ring mode"
 				}
 
@@ -6055,7 +6199,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.5, 648.0, 35.0, 18.0 ],
+					"patching_rect" : [ 10.5, 633.684448, 35.0, 18.0 ],
 					"text" : "r port",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.67 ]
 				}
@@ -6070,7 +6214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 19.5, 556.0, 36.0, 25.0 ],
+					"patching_rect" : [ 10.5, 541.684448, 36.0, 25.0 ],
 					"text" : "t i b"
 				}
 
@@ -6083,7 +6227,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 623.0, 85.0, 25.0 ],
+					"patching_rect" : [ 10.5, 608.684448, 85.0, 25.0 ],
 					"text" : "ctlout 1 16"
 				}
 
@@ -6097,7 +6241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 356.0, 132.0, 25.0 ],
+					"patching_rect" : [ 10.5, 348.684448, 132.0, 25.0 ],
 					"text" : "Encoder speed"
 				}
 
@@ -6112,7 +6256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 188.5, 230.0, 44.0 ],
+					"patching_rect" : [ 536.0, 209.5, 230.0, 44.0 ],
 					"text" : "ccs 100-111 control LED rings\nbut don't change encoder value"
 				}
 
@@ -6155,7 +6299,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 459.75, 120.5, 57.0, 25.0 ]
+					"patching_rect" : [ 475.75, 141.5, 57.0, 25.0 ]
 				}
 
 			}
@@ -6169,7 +6313,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 409.75, 120.5, 60.0, 25.0 ]
+					"patching_rect" : [ 425.75, 141.5, 60.0, 25.0 ]
 				}
 
 			}
@@ -6181,7 +6325,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.75, 163.5, 59.0, 25.0 ],
+					"patching_rect" : [ 425.75, 184.5, 59.0, 25.0 ],
 					"text" : "ctlout"
 				}
 
@@ -6197,7 +6341,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.5, 247.5, 284.0, 45.0 ],
+					"patching_rect" : [ 210.5, 242.5, 284.0, 45.0 ],
 					"text" : "button LEDs can also be controlled via sysex:"
 				}
 
@@ -6371,8 +6515,17 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1004.5, 703.889526, 1087.0, 703.889526, 1087.0, 670.889526, 1100.5, 670.889526 ],
+					"midpoints" : [ 1004.5, 695.889526, 1087.0, 695.889526, 1087.0, 662.889526, 1100.5, 662.889526 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}

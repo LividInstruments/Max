@@ -10,6 +10,7 @@
 ,
 		"rect" : [ 2.0, 44.0, 1280.0, 720.0 ],
 		"openrect" : [ 0.0, 0.0, 1280.0, 720.0 ],
+		"bgcolor" : [ 0.90437, 0.904343, 0.904358, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 16.0,
@@ -29,6 +30,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1024.0, 284.5, 30.0, 21.0 ],
+					"presentation_rect" : [ 1027.0, 289.0, 0.0, 0.0 ],
+					"text" : "test"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -470,7 +486,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 332.0, 331.0, 44.0 ],
+					"patching_rect" : [ 20.0, 315.0, 331.0, 44.0 ],
 					"text" : "\"coll colorveloc\" converts color name ('red') to a velocity value (16)."
 				}
 
@@ -514,12 +530,12 @@
 					"fontsize" : 16.0,
 					"frgb" : 0.0,
 					"id" : "obj-185",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 262.0, 331.0, 62.0 ],
-					"text" : "\"coll buttons_now\" just stores everything in autopattr. Could be done with a switch I suppose, but this seemed easier."
+					"patching_rect" : [ 20.0, 262.0, 346.0, 44.0 ],
+					"text" : "\"coll buttons_now\" just stores everything that comes out of autopattr. "
 				}
 
 			}
@@ -4413,7 +4429,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u319000844"
+					"varname" : "u137006247"
 				}
 
 			}
@@ -6431,8 +6447,8 @@
 			"obj-142" : [ "runner/13", "runner/13", 0 ],
 			"obj-222" : [ "rowTop/12", "rowTop/12", 0 ],
 			"obj-122" : [ "runner/3", "runner/3", 0 ],
-			"obj-156" : [ "rowBot/1", "rowBot/1", 0 ],
 			"obj-132" : [ "runner/8", "runner/8", 0 ],
+			"obj-156" : [ "rowBot/1", "rowBot/1", 0 ],
 			"obj-166" : [ "rowBot/6", "rowBot/6", 0 ],
 			"obj-176" : [ "rowBot/11", "rowBot/11", 0 ],
 			"obj-195" : [ "rowBot/16", "rowBot/16", 0 ],
