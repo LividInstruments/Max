@@ -1,0 +1,342 @@
+{
+	"pattrstorage" : 	{
+		"name" : "scalar",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"scale" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+					"scalename" : [ "Chromatic" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 5, 7, 9, 11, 12 ],
+					"scalename" : [ "Major" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 5, 7, 8, 10, 12 ],
+					"scalename" : [ "Minor" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 5, 7, 9, 10, 12 ],
+					"scalename" : [ "Dorian" ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 5, 7, 9, 10, 12 ],
+					"scalename" : [ "Mixolydian" ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 6, 7, 9, 11, 12 ],
+					"scalename" : [ "Lydian" ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 5, 7, 8, 10, 12 ],
+					"scalename" : [ "Phrygian" ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 4, 7, 8, 10, 12 ],
+					"scalename" : [ "Locrian" ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 4, 6, 7, 9, 10, 12 ],
+					"scalename" : [ "Diminished" ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 5, 6, 8, 9, 11, 12 ],
+					"scalename" : [ "Whole_half" ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 6, 8, 10, 12 ],
+					"scalename" : [ "WholeTone" ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"scale" : [ 0, 3, 5, 6, 7, 10, 12 ],
+					"scalename" : [ "MinorBlues" ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"scale" : [ 0, 3, 5, 7, 10, 12 ],
+					"scalename" : [ "MinorPentatonic" ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 7, 9, 12 ],
+					"scalename" : [ "MajorPentatonic" ]
+				}
+
+			}
+,
+			"15" : 			{
+				"id" : 15,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 5, 7, 8, 11, 12 ],
+					"scalename" : [ "HarmonicMinor" ]
+				}
+
+			}
+,
+			"16" : 			{
+				"id" : 16,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 5, 7, 9, 11, 12 ],
+					"scalename" : [ "MelodicMinor" ]
+				}
+
+			}
+,
+			"17" : 			{
+				"id" : 17,
+				"data" : 				{
+					"scale" : [ 0, 2, 5, 7, 9, 10, 12 ],
+					"scalename" : [ "DominantSus" ]
+				}
+
+			}
+,
+			"18" : 			{
+				"id" : 18,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 4, 6, 8, 10, 12 ],
+					"scalename" : [ "SuperLocrian" ]
+				}
+
+			}
+,
+			"19" : 			{
+				"id" : 19,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 5, 7, 8, 11, 12 ],
+					"scalename" : [ "NeopolitanMinor" ]
+				}
+
+			}
+,
+			"20" : 			{
+				"id" : 20,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 5, 7, 9, 11, 12 ],
+					"scalename" : [ "NeopolitanMajor" ]
+				}
+
+			}
+,
+			"21" : 			{
+				"id" : 21,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 6, 7, 10, 11, 12 ],
+					"scalename" : [ "EnigmaticMinor" ]
+				}
+
+			}
+,
+			"22" : 			{
+				"id" : 22,
+				"data" : 				{
+					"scale" : [ 0, 1, 4, 6, 8, 10, 11, 12 ],
+					"scalename" : [ "Enigmatic" ]
+				}
+
+			}
+,
+			"23" : 			{
+				"id" : 23,
+				"data" : 				{
+					"scale" : [ 0, 1, 4, 6, 7, 8, 11, 12 ],
+					"scalename" : [ "Composite" ]
+				}
+
+			}
+,
+			"24" : 			{
+				"id" : 24,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 5, 6, 8, 10, 11, 12 ],
+					"scalename" : [ "BebopLocrian" ]
+				}
+
+			}
+,
+			"25" : 			{
+				"id" : 25,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 5, 7, 9, 10, 11, 12 ],
+					"scalename" : [ "BebopDominant" ]
+				}
+
+			}
+,
+			"26" : 			{
+				"id" : 26,
+				"data" : 				{
+					"scale" : [ 0, 2, 4, 5, 7, 8, 9, 11, 12 ],
+					"scalename" : [ "BebopMajor" ]
+				}
+
+			}
+,
+			"27" : 			{
+				"id" : 27,
+				"data" : 				{
+					"scale" : [ 0, 1, 4, 5, 7, 8, 11, 12 ],
+					"scalename" : [ "Bhairav" ]
+				}
+
+			}
+,
+			"28" : 			{
+				"id" : 28,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 6, 7, 8, 11, 12 ],
+					"scalename" : [ "HungarianMinor" ]
+				}
+
+			}
+,
+			"29" : 			{
+				"id" : 29,
+				"data" : 				{
+					"scale" : [ 0, 1, 4, 5, 7, 8, 10, 12 ],
+					"scalename" : [ "MinorGypsy" ]
+				}
+
+			}
+,
+			"30" : 			{
+				"id" : 30,
+				"data" : 				{
+					"scale" : [ 0, 1, 4, 5, 6, 8, 11, 12 ],
+					"scalename" : [ "Persian" ]
+				}
+
+			}
+,
+			"31" : 			{
+				"id" : 31,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 7, 8, 12 ],
+					"scalename" : [ "Hirojoshi" ]
+				}
+
+			}
+,
+			"32" : 			{
+				"id" : 32,
+				"data" : 				{
+					"scale" : [ 0, 1, 5, 7, 10, 12 ],
+					"scalename" : [ "InSen" ]
+				}
+
+			}
+,
+			"33" : 			{
+				"id" : 33,
+				"data" : 				{
+					"scale" : [ 0, 1, 5, 6, 10, 12 ],
+					"scalename" : [ "Iwato" ]
+				}
+
+			}
+,
+			"34" : 			{
+				"id" : 34,
+				"data" : 				{
+					"scale" : [ 0, 2, 3, 7, 9, 12 ],
+					"scalename" : [ "Kumoi" ]
+				}
+
+			}
+,
+			"35" : 			{
+				"id" : 35,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 4, 7, 8, 12 ],
+					"scalename" : [ "Pelog" ]
+				}
+
+			}
+,
+			"36" : 			{
+				"id" : 36,
+				"data" : 				{
+					"scale" : [ 0, 1, 3, 4, 5, 6, 8, 10, 12 ],
+					"scalename" : [ "Spanish" ]
+				}
+
+			}
+,
+			"37" : 			{
+				"id" : 37,
+				"data" : 				{
+					"scale" : [ 0, 1, 2, 3, 16, 17, 18, 19, 4, 5, 6, 7, 20, 21, 22, 23, 8, 9, 10, 11, 24, 25, 26, 27, 12, 13, 14, 15, 28, 29, 30, 31 ],
+					"scalename" : [ "DrumPad" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
