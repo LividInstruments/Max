@@ -65,6 +65,61 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"coll_data" : 									{
+										"count" : 8,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ "ADSR::Attack", 0.0 ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ "ADSR::Decay", 834.645691 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ "LPF::Freq", 5000.0 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ "LPF::CV1", 0.0 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ "Oscillator::CV2", 0.0 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "Oscillator[1]::CV2", 0.0 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ "Oscillator[1]::Offset[2]", -12 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ "CVLFO::SyncRate", 7.204724 ]
+											}
+ ]
+									}
+,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 122.0, 126.0, 59.5, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Helvetica Neue Light",
 									"fontsize" : 14.0,
 									"id" : "obj-2",
@@ -127,8 +182,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 153.0, 57.0, 20.0 ],
-									"text" : "zl slice 1"
+									"patching_rect" : [ 50.0, 153.0, 79.0, 20.0 ],
+									"text" : "route symbol"
 								}
 
 							}
@@ -138,35 +193,35 @@
 										"count" : 8,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "ADSR::Attack", 0.0 ]
+												"value" : [ "attack" ]
 											}
 , 											{
 												"key" : 1,
-												"value" : [ "ADSR::Decay", 834.645691 ]
+												"value" : [ "decay" ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "LPF::Freq", 5000.0 ]
+												"value" : [ "f.req" ]
 											}
 , 											{
 												"key" : 3,
-												"value" : [ "LPF::CV1", 0.0 ]
+												"value" : [ "f.LFO" ]
 											}
 , 											{
 												"key" : 4,
-												"value" : [ "Oscillator::CV2", 0.0 ]
+												"value" : [ "osc1LFO" ]
 											}
 , 											{
 												"key" : 5,
-												"value" : [ "Oscillator[1]::CV2", 0.0 ]
+												"value" : [ "osc2LFO" ]
 											}
 , 											{
 												"key" : 6,
-												"value" : [ "Oscillator[1]::Offset[2]", -12 ]
+												"value" : [ "oscPitch" ]
 											}
 , 											{
 												"key" : 7,
-												"value" : [ "CVLFO::SyncRate", 7.204724 ]
+												"value" : [ "LFOrate" ]
 											}
  ]
 									}
@@ -3219,7 +3274,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u451021995"
+									"varname" : "u256017632"
 								}
 
 							}
@@ -4476,7 +4531,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u219021992"
+									"varname" : "u571017665"
 								}
 
 							}
@@ -5498,7 +5553,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u436021986"
+									"varname" : "u182017637"
 								}
 
 							}
@@ -10601,7 +10656,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u973021987"
+									"varname" : "u538017631"
 								}
 
 							}
@@ -11560,7 +11615,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u091021991"
+									"varname" : "u032018195"
 								}
 
 							}
@@ -13990,7 +14045,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u090021990"
+									"varname" : "u766017625"
 								}
 
 							}
@@ -16800,7 +16855,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u700021989"
+									"varname" : "u469017614"
 								}
 
 							}
@@ -17703,7 +17758,7 @@
 						"count" : 64,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "read", "u432021885.json", 0 ]
+								"value" : [ "read", "u317016517.json", 0 ]
 							}
 , 							{
 								"key" : 1,
@@ -18509,7 +18564,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u368021988"
+									"varname" : "u589017618"
 								}
 
 							}
@@ -19283,7 +19338,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u432021885"
+					"varname" : "u317016517"
 				}
 
 			}
@@ -19825,7 +19880,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u523022000"
+									"varname" : "u288017617"
 								}
 
 							}
@@ -20711,8 +20766,8 @@
 			"obj-41::obj-69" : [ "live.text[1]", "live.text", 0 ],
 			"obj-17::obj-53" : [ "Mute[1]", "Mute", 0 ],
 			"obj-42::obj-55" : [ "Bypass[4]", "Bypass", 0 ],
-			"obj-67::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-67::obj-20" : [ "Freq[3]", "Freq", 0 ],
+			"obj-67::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-10::obj-1" : [ "Attack", "Attack", 0 ],
 			"obj-1::obj-45" : [ "FreqMode[1]", "FreqMode", 0 ],

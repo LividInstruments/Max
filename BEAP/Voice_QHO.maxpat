@@ -65,6 +65,61 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"coll_data" : 									{
+										"count" : 8,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ "OscillatorBlend", 0 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ "QuadHarmonicOscillator::CV2", 0.0 ]
+											}
+, 											{
+												"key" : 13,
+												"value" : [ "ADSR::Attack", 0.0 ]
+											}
+, 											{
+												"key" : 14,
+												"value" : [ "ADSR::Decay", 177.165359 ]
+											}
+, 											{
+												"key" : 15,
+												"value" : [ "Oscillator::Freq", 43.472443 ]
+											}
+, 											{
+												"key" : 16,
+												"value" : [ "Ladder::CV2", 0.0 ]
+											}
+, 											{
+												"key" : 17,
+												"value" : [ "Ladder::Freq", 5000.0 ]
+											}
+, 											{
+												"key" : 18,
+												"value" : [ "Ladder::Res", 0.0 ]
+											}
+ ]
+									}
+,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 109.5, 126.0, 59.5, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Helvetica Neue Light",
 									"fontsize" : 14.0,
 									"id" : "obj-2",
@@ -127,8 +182,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 153.0, 57.0, 20.0 ],
-									"text" : "zl slice 1"
+									"patching_rect" : [ 50.0, 153.0, 79.0, 20.0 ],
+									"text" : "route symbol"
 								}
 
 							}
@@ -138,35 +193,35 @@
 										"count" : 8,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "OscillatorBlend", 0 ]
+												"value" : [ "oscBlend" ]
 											}
 , 											{
 												"key" : 12,
-												"value" : [ "QuadHarmonicOscillator::CV2", 0.0 ]
+												"value" : [ "oscLFOamt" ]
 											}
 , 											{
 												"key" : 13,
-												"value" : [ "ADSR::Attack", 0.0 ]
+												"value" : [ "attack" ]
 											}
 , 											{
 												"key" : 14,
-												"value" : [ "ADSR::Decay", 177.165359 ]
+												"value" : [ "decay" ]
 											}
 , 											{
 												"key" : 15,
-												"value" : [ "Oscillator::Freq", 43.472443 ]
+												"value" : [ "oscFreq" ]
 											}
 , 											{
 												"key" : 16,
-												"value" : [ "Ladder::CV2", 0.0 ]
+												"value" : [ "f.LFOamt" ]
 											}
 , 											{
 												"key" : 17,
-												"value" : [ "Ladder::Freq", 5000.0 ]
+												"value" : [ "f.freq." ]
 											}
 , 											{
 												"key" : 18,
-												"value" : [ "Ladder::Res", 0.0 ]
+												"value" : [ "f.res" ]
 											}
  ]
 									}
@@ -2952,7 +3007,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u847000881"
+					"varname" : "u821004591"
 				}
 
 			}
@@ -3489,7 +3544,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u192000029"
+									"varname" : "u878007076"
 								}
 
 							}
@@ -5711,7 +5766,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u850014868"
+									"varname" : "u668004440"
 								}
 
 							}
@@ -11184,7 +11239,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u296000031"
+									"varname" : "u940003953"
 								}
 
 							}
@@ -17944,7 +17999,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u245000125"
+									"varname" : "u078004923"
 								}
 
 							}
@@ -19158,7 +19213,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u012000100"
+									"varname" : "u828004899"
 								}
 
 							}
@@ -19981,7 +20036,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u136000167"
+									"varname" : "u530004866"
 								}
 
 							}
@@ -21068,7 +21123,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u732000078"
+									"varname" : "u317004455"
 								}
 
 							}
@@ -28497,7 +28552,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u249014646"
+									"varname" : "u985004173"
 								}
 
 							}
@@ -29435,8 +29490,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-229" : [ "HarmonicOffset[3]", "HarmonicOffset", 0 ],
 			"obj-10::obj-223" : [ "Waveform[2]", "Waveform", 0 ],
+			"obj-10::obj-229" : [ "HarmonicOffset[3]", "HarmonicOffset", 0 ],
 			"obj-17::obj-129" : [ "CV2[2]", "CV2", 0 ],
 			"obj-10::obj-178" : [ "Attenuation[2]", "Attenuation", 0 ],
 			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
@@ -29481,8 +29536,8 @@
 			"obj-73::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-73::obj-20" : [ "Freq", "Freq", 0 ],
 			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-197" : [ "Waveform", "Waveform", 0 ],
 			"obj-10::obj-45" : [ "FreqMode[1]", "FreqMode", 0 ],
+			"obj-10::obj-197" : [ "Waveform", "Waveform", 0 ],
 			"obj-74::obj-94" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
 			"obj-10::obj-225" : [ "HarmonicOffset[2]", "HarmonicOffset", 0 ],
 			"obj-24" : [ "Filter Freq", "freq", 0 ],

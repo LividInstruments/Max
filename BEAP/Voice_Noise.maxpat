@@ -65,6 +65,61 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"coll_data" : 									{
+										"count" : 8,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ "ADSR[2]::Attack", 0.0 ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ "ADSR[2]::Decay", 464.566925 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ "ADSR[1]::Attack", 129.921265 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ "ADSR[1]::Decay", 66.929131 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ "LPF::CV1", 0.0 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "LPF::CV2", 0.0 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ "LPF::Freq", 5000.0 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ "LPF::Res", 0.0 ]
+											}
+ ]
+									}
+,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 109.5, 126.0, 59.5, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Helvetica Neue Light",
 									"fontsize" : 14.0,
 									"id" : "obj-2",
@@ -127,8 +182,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 153.0, 57.0, 20.0 ],
-									"text" : "zl slice 1"
+									"patching_rect" : [ 50.0, 153.0, 79.0, 20.0 ],
+									"text" : "route symbol"
 								}
 
 							}
@@ -138,35 +193,35 @@
 										"count" : 8,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "ADSR[2]::Attack", 0.0 ]
+												"value" : [ "attack" ]
 											}
 , 											{
 												"key" : 1,
-												"value" : [ "ADSR[2]::Decay", 464.566925 ]
+												"value" : [ "decay" ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "ADSR[1]::Attack", 129.921265 ]
+												"value" : [ "f.attack" ]
 											}
 , 											{
 												"key" : 3,
-												"value" : [ "ADSR[1]::Decay", 66.929131 ]
+												"value" : [ "f.decay" ]
 											}
 , 											{
 												"key" : 4,
-												"value" : [ "LPF::CV1", 0.0 ]
+												"value" : [ "pitched" ]
 											}
 , 											{
 												"key" : 5,
-												"value" : [ "LPF::CV2", 0.0 ]
+												"value" : [ "f.envAmt" ]
 											}
 , 											{
 												"key" : 6,
-												"value" : [ "LPF::Freq", 5000.0 ]
+												"value" : [ "f.freq" ]
 											}
 , 											{
 												"key" : 7,
-												"value" : [ "LPF::Res", 0.0 ]
+												"value" : [ "f.res" ]
 											}
  ]
 									}
@@ -1553,7 +1608,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u893017295"
+					"varname" : "u516017746"
 				}
 
 			}
@@ -3322,7 +3377,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u739003409"
+									"varname" : "u148017702"
 								}
 
 							}
@@ -4579,7 +4634,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u115012750"
+									"varname" : "u485016414"
 								}
 
 							}
@@ -5401,7 +5456,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u215003412"
+									"varname" : "u582007550"
 								}
 
 							}
@@ -6488,7 +6543,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u350012751"
+									"varname" : "u265001593"
 								}
 
 							}
@@ -7097,7 +7152,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u137003416"
+									"varname" : "u642011645"
 								}
 
 							}
@@ -7891,7 +7946,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u420003420"
+									"varname" : "u589002327"
 								}
 
 							}
@@ -9386,7 +9441,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u851003401"
+									"varname" : "u228021195"
 								}
 
 							}
@@ -10347,8 +10402,8 @@
 			"obj-41::obj-69" : [ "live.text[1]", "live.text", 0 ],
 			"obj-16::obj-29" : [ "Decay[2]", "Decay", 0 ],
 			"obj-18::obj-55" : [ "Mute[2]", "Mute", 0 ],
-			"obj-67::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-67::obj-20" : [ "Freq[3]", "Freq", 0 ],
+			"obj-67::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-15::obj-29" : [ "Decay[1]", "Decay", 0 ],
 			"obj-67::obj-63" : [ "CV3[3]", "CV3", 0 ],
 			"obj-4" : [ "Filter Env Attack", "fenv attack", 0 ],
