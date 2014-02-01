@@ -1,12 +1,11 @@
 /*
-|	BaseScript.js is a LIVID CONTROL helper
-|
-|		version 1.0
-|		written by Peter Nyboer
-| 
-|		- observe Base Controller
-|		- send some feedback, on demand
-|
+|	BaseScript.js works with the BaseM4L Remote Script for Live
+|	version 1.0
+|	Peter Nyboer
+| 	- observe Base Controller
+|	- send feedback to LEDs, on demand
+|	- use to make interactive Max for Live patches with Livid Base
+	http://www.lividinstruments.com/
 */
 
 // js object set up
@@ -37,8 +36,9 @@ function enable(v){
   enabled = v;
 }
 
-//light an LED with a message such as 'light btn 5 yellow' or 'light pad 10 g'
+//light an LED with a message such as 'ctl btn 5 yellow' or 'ctl pad 10 g'
 function ctl(type,id,value){
+  post("\nctl ",type,id,value);
   var i = ctls[type][id];
   //check if it's a symbol
   if(typeof value == 'string'){
@@ -63,26 +63,43 @@ function control(i,value)
 
 // creating the whole observers for all encoders, buttons & pads for the Code as 
 // the control surface number n
+var csnumber = 0;
 function LividBaseM4L(n)
  {
     var index;
     
-    cs_root = new LiveAPI(this.patcher, 'control_surfaces');
+    var cs_root = new LiveAPI(dummy,'control_surfaces');
     if (!cs_root)
     {
         post('API problem !','\n');
     }
 
-	for (index = 0; index < 116 ; index++)
-    {
-		ctloutArray[index] = new LiveAPI(this.patcher, ctl_callback, 'control_surfaces', n, 'controls', index);
-		ctloutArray[index].property = 'value';
-		ctloutArray[index].ind = index;
-	}
-
+    for (index = 0; index < 116 ; index++)
+      {
+      ctloutArray[index] = new LiveAPI(ctl_callback, 'control_surfaces', n, 'controls', index);
+      ctloutArray[index].property = 'value';
+      ctloutArray[index].ind = index;
+    }
+    csnumber = n;
 }
 
-var prevname = '';
+var slicolors = {'white':93,'w':93,'red':69,'r':69,'green':73,'g':73,'blue':81,'b':81,'yellow':77,'y':77,'cyan':89,'c':89,'magenta':85,'m':85,'inv':65,'vu':97};
+function allslidercolor(c){
+  var colorval = slicolors[c];
+  var settings = new LiveAPI(dummy,'control_surfaces', csnumber);
+  settings.call('slider_color', colorval);
+}
+
+function slidercolor(s,c){
+  var colorval = slicolors[c];
+  var settings = new LiveAPI(dummy,'control_surfaces', csnumber);
+  settings.call('aslider_color',s,colorval);
+}
+
+function dummy(){
+  post('dummy callback')
+}
+
 function ctl_callback(args)
 {
   var name = '-';
