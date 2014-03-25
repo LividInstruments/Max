@@ -29,6 +29,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 14.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 31.0, 141.0, 77.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"audiosupport" : 0,
+						"cantclosetoplevelpatchers" : 1,
+						"database" : 0,
+						"extensions" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 1,
+						"overdrive" : 0,
+						"preffilename" : "Livid Controller Sysex Save",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontname" : "Helvetica Neue Light",
@@ -40,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 173.5, 86.0, 46.0 ],
-					"presentation_rect" : [ 17.5, 121.5, 0.0, 0.0 ],
 					"text" : "tuzi is in the Abstractions folder!"
 				}
 
@@ -618,7 +645,7 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 14.0,
 					"id" : "obj-121",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver IAC Bus 3", ",", "Cntrl_r Controls", ",", "Cntrl_r Port 2", ",", "from Max 1", ",", "from Max 2", ",", "to DeviceSettings 1", ",", "to DeviceSettings 2", ",", "to DeviceSettings 1", ",", "to DeviceSettings 2", ",", "to DeviceSettings 1", ",", "to DeviceSettings 2", ",", "to DeviceSettings 1", ",", "to DeviceSettings 2", ",", "to SysexSaver 1", ",", "to SysexSaver 2", ",", "to SysexSaver 1", ",", "to SysexSaver 2", ",", "to SysexSaver 1", ",", "to SysexSaver 2", ",", "to SysexSaver 1", ",", "to SysexSaver 2", ",", "to SysexSaver 1", ",", "to SysexSaver 2", ",", "to SysexSaver 1", ",", "to SysexSaver 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
