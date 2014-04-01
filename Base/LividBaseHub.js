@@ -93,7 +93,7 @@ function allslidercolor(c){
 function slidercolor(s,c){
   var colorval = slicolors[c];
   var settings = new LiveAPI(dummy,'control_surfaces', csnumber);
-  settings.call('aslider_color',s,colorval);
+  settings.call('oneslider_color',s,colorval);
 }
 
 function dummy(){
@@ -105,6 +105,7 @@ function ctl_callback(args)
   var name = '-';
   var oset = 0; //just makes the name better
   var valout = args[1];
+  post("\ncallback... i:"+this.ind+" val: "+valout
   if (this.ind<9){
     name = 'fader'
     oset = 0;
