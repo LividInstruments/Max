@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 22.0, 59.0, 858.0, 905.0 ],
+		"rect" : [ 0.0, 46.0, 886.0, 865.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -40,7 +40,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 437.0, 625.572876, 220.0, 52.0 ],
-					"presentation_rect" : [ 442.0, 630.381897, 0.0, 0.0 ],
 					"text" : "the \"colorveloc\" coll simply converts the color names into the correct integer velocity for the note out"
 				}
 
@@ -59,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 398.381897, 78.0, 38.0 ],
-					"presentation_rect" : [ -2.5, 399.572845, 0.0, 0.0 ],
 					"text" : "incoming note #"
 				}
 
@@ -77,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 468.0, 562.381897, 220.0, 52.0 ],
-					"presentation_rect" : [ 473.5, 579.072876, 0.0, 0.0 ],
 					"text" : "these are prepopulated with some fairly arbirary on/off colors for the buttons on the Ohm"
 				}
 
@@ -94,7 +91,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 423.0, 806.0, 288.0, 23.0 ],
-					"presentation_rect" : [ 465.5, 833.072876, 0.0, 0.0 ],
 					"text" : "*MAKE SURE you set up your ports correctly! "
 				}
 
@@ -111,7 +107,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 550.5, 480.072845, 178.0, 24.0 ],
-					"presentation_rect" : [ 561.0, 479.072845, 0.0, 0.0 ],
 					"text" : "assign an off color to a note#"
 				}
 
@@ -130,7 +125,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.0, 492.572845, 106.0, 38.0 ],
-					"presentation_rect" : [ 99.5, 508.881897, 0.0, 0.0 ],
 					"text" : "off velocity goes to outlet 2"
 				}
 
@@ -298,7 +292,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.5, 225.0, 265.5, 69.0 ],
-					"presentation_rect" : [ 550.5, 359.072845, 0.0, 0.0 ],
 					"text" : "This section takes midi from Live's Remote feedback and remaps the on and off velocities."
 				}
 
@@ -315,7 +308,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 431.5, 11.0, 325.0, 69.0 ],
-					"presentation_rect" : [ 132.0, 56.072845, 0.0, 0.0 ],
 					"text" : "This section simply takes controller info from the Ohm and forwards it onto Live via the \"from Max 1\" virtual MIDI port."
 				}
 
@@ -346,7 +338,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 409.5, 301.072845, 172.0, 23.0 ],
-					"presentation_rect" : [ 554.0, 192.072845, 0.0, 0.0 ],
 					"text" : "select input port (to Max 1)"
 				}
 
@@ -361,7 +352,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 317.0, 235.0, 67.0, 23.0 ],
-					"presentation_rect" : [ 461.5, 126.0, 0.0, 0.0 ],
 					"text" : "loadbang"
 				}
 
@@ -376,7 +366,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 289.0, 270.0, 57.0, 23.0 ],
-					"presentation_rect" : [ 433.5, 161.0, 0.0, 0.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -387,14 +376,13 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 14.0,
 					"id" : "obj-6",
-					"items" : [ "IAC Port 1", ",", "Base Controls", ",", "Base Port 2", ",", "IAC Port 2", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Port 1", ",", "OhmRGB Controls", ",", "OhmRGB Port 2", ",", "IAC Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 289.0, 301.072845, 120.0, 23.0 ],
-					"presentation_rect" : [ 433.5, 192.072845, 0.0, 0.0 ]
+					"patching_rect" : [ 289.0, 301.072845, 120.0, 23.0 ]
 				}
 
 			}
@@ -447,7 +435,7 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 14.0,
 					"id" : "obj-32",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Port 1", ",", "Base Controls", ",", "Base Port 2", ",", "IAC Port 2", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Port 1", ",", "OhmRGB Controls", ",", "OhmRGB Port 2", ",", "IAC Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -533,7 +521,7 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 14.0,
 					"id" : "obj-24",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Port 1", ",", "Base Controls", ",", "Base Port 2", ",", "IAC Port 2", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Port 1", ",", "OhmRGB Controls", ",", "OhmRGB Port 2", ",", "IAC Port 2", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -619,7 +607,7 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 14.0,
 					"id" : "obj-65",
-					"items" : [ "IAC Port 1", ",", "Base Controls", ",", "Base Port 2", ",", "IAC Port 2", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Port 1", ",", "OhmRGB Controls", ",", "OhmRGB Port 2", ",", "IAC Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -652,8 +640,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.5, 515.881897, 62.0, 23.0 ],
-					"text" : "pack 0 s"
+					"patching_rect" : [ 360.5, 515.881897, 55.0, 23.0 ],
+					"text" : "pak 0 s"
 				}
 
 			}
@@ -666,8 +654,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 414.881897, 62.0, 23.0 ],
-					"text" : "pack 0 s"
+					"patching_rect" : [ 370.0, 414.881897, 55.0, 23.0 ],
+					"text" : "pak 0 s"
 				}
 
 			}
@@ -811,11 +799,11 @@
 						"count" : 82,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "black" ]
+								"value" : [ "blue" ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ "black" ]
+								"value" : [ "yellow" ]
 							}
 , 							{
 								"key" : 2,
@@ -1377,14 +1365,14 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 82,
+						"count" : 84,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "red" ]
+								"value" : [ "cyan" ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ "red" ]
+								"value" : [ "magenta" ]
 							}
 , 							{
 								"key" : 2,
@@ -1705,6 +1693,14 @@
 , 							{
 								"key" : 81,
 								"value" : [ "blue" ]
+							}
+, 							{
+								"key" : -1,
+								"value" : [ "s" ]
+							}
+, 							{
+								"key" : -2,
+								"value" : [ "s" ]
 							}
  ]
 					}
