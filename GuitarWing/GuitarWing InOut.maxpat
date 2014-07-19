@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -89,7 +89,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -536,7 +536,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-109",
-					"items" : [ "IAC Driver Bus 1", ",", "Base Controls", ",", "Base Port 2", ",", "828 Sync Port", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC IAC Bus 1", ",", "IAC IAC Bus 2", ",", "Network Session 1", ",", "from Max 1", ",", "from Max 2", ",", "Base DeviceExample.amxd" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -579,7 +579,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
-					"items" : [ "IAC Driver Bus 1", ",", "Base Controls", ",", "Base Port 2", ",", "828 Sync Port", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC IAC Bus 1", ",", "IAC IAC Bus 2", ",", "Network Session 1", ",", "to Max 1", ",", "to Max 2", ",", "Base DeviceExample.amxd" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -809,7 +809,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1148,7 +1148,7 @@
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 14.0,
 					"id" : "obj-65",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Base Controls", ",", "Base Port 2", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC IAC Bus 1", ",", "IAC IAC Bus 2", ",", "Network Session 1", ",", "from Max 1", ",", "from Max 2", ",", "Base DeviceExample.amxd" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1629,7 +1629,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3612,20 +3612,21 @@
  ],
 		"parameters" : 		{
 			"obj-28" : [ "button/3", "button/3", 0 ],
-			"obj-228" : [ "Slider 3", "slider3", 0 ],
-			"obj-227" : [ "Slider 2", "slider2", 0 ],
 			"obj-52" : [ "pad/4", "pad/4", 0 ],
 			"obj-16" : [ "sidebtn/1", "sidebtn/1", 0 ],
-			"obj-38" : [ "arrow/1", "arrow/1", 0 ],
-			"obj-30" : [ "button/4", "button/4", 0 ],
-			"obj-62" : [ "padcc/1", "padcc/1", 0 ],
-			"obj-54" : [ "pad/4[1]", "pad/4", 0 ],
-			"obj-18" : [ "sidebtn/2", "sidebtn/2", 0 ],
 			"obj-12" : [ "Slider Touch 3", "slidertouch3", 0 ],
 			"obj-11" : [ "Slider Touch 2", "slidertouch2", 0 ],
 			"obj-10" : [ "Slider Touch 1", "slidertouch1", 0 ],
+			"obj-38" : [ "arrow/1", "arrow/1", 0 ],
+			"obj-30" : [ "button/4", "button/4", 0 ],
+			"obj-62" : [ "padcc/1", "padcc/1", 0 ],
+			"obj-18" : [ "sidebtn/2", "sidebtn/2", 0 ],
+			"obj-228" : [ "Slider 3", "slider3", 0 ],
+			"obj-54" : [ "pad/4[1]", "pad/4", 0 ],
 			"obj-73" : [ "accel/1", "accel/1", 0 ],
+			"obj-227" : [ "Slider 2", "slider2", 0 ],
 			"obj-40" : [ "arrow/2", "arrow/2", 0 ],
+			"obj-222" : [ "Slider 1", "slider1", 0 ],
 			"obj-43" : [ "pad/1", "pad/1", 0 ],
 			"obj-64" : [ "padcc/2", "padcc/2", 0 ],
 			"obj-20" : [ "sidebtn/3", "sidebtn/3", 0 ],
@@ -3634,7 +3635,6 @@
 			"obj-45" : [ "pad/2", "pad/2", 0 ],
 			"obj-66" : [ "padcc/3", "padcc/3", 0 ],
 			"obj-22" : [ "sidebtn/4", "sidebtn/4", 0 ],
-			"obj-222" : [ "Slider 1", "slider1", 0 ],
 			"obj-77" : [ "accel/3", "accel/3", 0 ],
 			"obj-26" : [ "button/2", "button/2", 0 ],
 			"obj-47" : [ "pad/3", "pad/3", 0 ],
