@@ -1,7 +1,7 @@
 Max
 ===
 
-A growing library of patches that detail how to work with Livid controllers and Cycling74's Max6 software.
+A growing library of patches that detail how to work with Livid controllers and Cycling74's Max6 software. The easy way to make all this work is to put the whole repo in your Max search path.
 
 An overview of contents:
 
@@ -47,8 +47,15 @@ Various synthesizers and support patches built with/branched from the BEAP virtu
 <i>basic_concepts.maxpat</i> - a patch to describe a nice way of wirelessly patching max and integrating pattrstorage
 <i>save_sysex_settings.maxpat</i> - a utilty that detects a Livid controller, requests its current settings, then saves them to a file for later use.
 <i>scriptingName_example.maxpat</i> - a simple example of how to use thispatcher and an objects "Scripting Name" to control and object. The patches in this collection make heavy use of this practice, so a simple example seemed worthwhile for those unfamiliar with this feature in Max.
-
+<i>monomeBridge.maxpat</i> - turns a button grid on the block, Ohm64, OhmRGB, or Code into a monome. Converts MIDI to OSC and back.
 <b>scripts</b>
-<i>LividM4LHub.js</i> - 
+<i>LividM4LHub.js</i> - communicates with M4L scripts to provide controller info in a Max for Live device
+<i>findLivid.js</i> - uses Sysex to find a Livid controller on a MIDI port and initialize a patch appropriately
+<i>findLivid.maxhelp</i> - help file for findLivid.js
+<i>li.getsetup.js</i> - uses sysex to determine the analog, button and LED mapping of some Livid controllers
+<i>li.UI.js</i>  - Takes in the MIDI assignment data in form of sysex and coordinates messages for graphical interface 
+and patch interaction.
+<i>li.UI.maxhelp</i> - example patch for li.UI.js
+<i>ohmrgb_colors.js</i> - This script manages color schemes and patterns for the OhmRGB controller. 
 
 <b>img</b>
