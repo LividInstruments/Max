@@ -1,6 +1,6 @@
 /*
 |	LividM4LHub.js works with the Aliase8M4L, BaseM4L, CodeM4L, and GuitarWingM4L Remote Scripts for Live
-|	version 1.02
+|	version 1.03
 |	Peter Nyboer
 | 	- observe Base Controller
 |	- send feedback to LEDs, on demand
@@ -14,6 +14,8 @@ inlets = 1;
 outlets = 2;
 var enabled = 0;
 
+var DBUG = 0;
+
 // Input
 var ctloutArray = new Array();
 
@@ -23,9 +25,10 @@ dv.Base = {};
 dv.GWing = {};
 dv.Alias8 = {};
 dv.Code = {};
+dv.Launchpad = {};
 
 //var products = ['','Brain','Ohm64','block','Code','-','--','OhmRGB','CNTRLR','BrainV2','Alias8','Base','BrainJr','BrainCV','GuitarWing','DS1'];
-var translate = {'LividBaseM4L':'Base','LividCodeM4L':'Code','LividAlias8M4L':'Alias8','LividGuitarWingM4L':'GWing'};
+var translate = {'LividBaseM4L':'Base','LividCodeM4L':'Code','LividAlias8M4L':'Alias8','LividGuitarWingM4L':'GWing','LaunchpadM4L':'Launchpad'};
 
 //convert symbol inputs from m4l patch into indices for LiveAPI Remote script
 dv.Base.btn = [82,83,84,85,86,87,88,89];
@@ -70,6 +73,12 @@ dv.Code.encring = [77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,9
 dv.Code.ctlcount = 109;
 dv.Code.colors = {'fast':126,'fast blink':126,'f':126,'slow':1,'slow blink':1,'s':1,'slow':1, '0':0,'off':0, '1':127,'on':127};
 
+dv.Launchpad.grid = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15, 16,17,18,19, 20,21,22,23, 24,25,26,27, 28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63];
+dv.Launchpad.side = [64,65,66,67, 68,69,70,71];
+dv.Launchpad.top = [72,73,74,75, 76,77,78,79];
+dv.Launchpad.ctlcount = 80;
+dv.Launchpad.colors = {'off':12,  'dimmer red':13,'rr':13,  'dim red':14,'rr':14,  'red':15,'R':15,  'dim green':44,'g':44,  'dim yellow':45,'y':45,  'dim amber':46,'a':46,  'orange':47,'O':47,'o':47,  'green':60,'G':60,  'greenish':61,'gy':61,  'yellow':62,'Y':62,  'amber':63,'A':63};
+
 function enable(v){
   enabled = v;
 }
@@ -82,7 +91,7 @@ function cs(name,n){
     post("\nproduct",product);
     makeobservers(n);
   }else{
-    post('CS name error - not a M4L script');
+    post('\nCS name error - not a M4L script');
     outlet(1,'no matching Max For Live construction kit found');
   }
 }
@@ -104,7 +113,7 @@ function ctl(ctltype,id,value){
       }
     }
   }
-    post('\nctl ',product,ctltype,id,value, " .... ",dv[product][ctltype][id] );
+    if(DBUG) post('\nctl ',product,ctltype,id,value, " value ",dv[product][ctltype][id] );
 }
 
 function control(i,value)
