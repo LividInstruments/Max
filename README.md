@@ -5,7 +5,7 @@ A growing library of patches that detail how to work with Livid controllers and 
 The easy way to make all this work is to put the whole repo in your Max search path.
 Max for Live devices are not frozen, it is recommended that you do this!
 
-The <i>Device Example</i> Max For Live devices depend on the corresponding "M4L" Live Remote Script that can be found in our <a href="https://github.com/LividInstruments/LiveRemoteScripts">Live Remote Scripts repository</a>.
+The <i>Device Example</i> Max For Live devices depend on the corresponding "M4L" Live Remote Script that can be found in our <a href="https://github.com/LividInstruments/LiveRemoteScripts">Live Remote Scripts repository</a>. You'll also need to make sure the "scripts" folder in this repository can be found by Max, as the M4L devices require the LividM4Lhub.js.
 
 An overview of contents:
 
